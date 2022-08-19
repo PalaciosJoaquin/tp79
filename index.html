@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+<script>
+	class CRectangulo {
+	constructor(base, altura){
+		this.base=base;
+		this.altura=altura;
+	}
+	calcularArea(){
+		let area;
+		area=this.base*this.altura;
+		return area;
+	}
+}
+const rectangulo1=new CRectangulo(4,5);
+const rectangulo2=new CRectangulo(5,8);
+alert('El area del primer rectangulo es: '+ rectangulo1.calcularArea());
+alert('El area del segundo rectangulo es: '+ rectangulo2.calcularArea());
+</script>
+</body>
+</html>
